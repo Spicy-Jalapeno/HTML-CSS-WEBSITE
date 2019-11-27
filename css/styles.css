@@ -1,0 +1,139 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', sans-serif;
+}
+
+h1 {
+  margin: 50px auto -20px auto;
+  font-size: 5.625rem;
+  /* 16px = 100% so if i want 90px math will be 90px/16px=562.5%*/
+  /* em can also be used for font-size
+  1 em = 16px
+  90px = 5.625 em */
+  font-family: 'Sacramento', cursive;
+  color: #66BFBF;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color: #66BFBF;
+  font-weight: normal;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+}
+
+p {
+  color: #40514E;
+  /* text-align: center; */
+  line-height: 2;
+}
+
+hr {
+  border: dotted #EAF6F6 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+}
+
+a {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+a:hover{
+  color:#EAF6F6
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.top-container {
+  background-color: #e0ebe8;
+  position: relative;
+  padding-top: 100px;
+}
+
+.intro {
+  text-align: center;
+  width: 500px;
+  margin: 30px auto;
+}
+
+.middle-container {
+  margin: 100px auto;
+}
+
+.code {
+  float: left;
+  width: 25%;
+  margin-right: 30px;
+}
+
+.computer {
+  float: right;
+  width: 25%;
+  margin-left: 30px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.profile-img {
+  height: 350px;
+  width: 200px;
+}
+
+.bottom-container {
+  background-color: #66BFBF;
+  padding: 40px;
+}
+
+
+
+.copyright {
+  color: white;
+}
+
+.btn {
+  margin: 20px auto;
+  box-shadow: 0px 10px 14px -7px #276873;
+  background: linear-gradient(to bottom, #11cdd4 5%, #11999e 100%);
+  background-color: #11cdd4;
+  border-radius: 10px;
+  display: inline-block;
+  cursor: pointer;
+  color: #fcfcfc;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 13px 32px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: linear-gradient(to bottom, #2bc4ad 5%, #30e3cb 100%);
+  background-color: #11999e;
+}
+
+.top-cloud {
+  position: relative;
+  left: 300px;
+  top: 50px;
+}
+
+.bot-cloud {
+  position: absolute;
+  /* left: 300px;
+  bottom: 300px; */
+}
